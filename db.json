@@ -25,29 +25,6 @@
           "explanation": "Product x is being administrated at a third party located in y"
         },
         {
-          "text": "Which picture of available options for product x has the beste features?",
-          "category": "imagesChoice",
-          "images": [
-            {
-              "src": "https://a.png",
-              "alt": "description of a when not loaded",
-              "value": "a"
-            },
-            {
-              "src": "https://a.png",
-              "alt": "description of b when not loaded",
-              "value": "b"
-            },
-            {
-              "src": "https://a.png",
-              "alt": "description of c when not loaded",
-              "value": "c"
-            }
-          ],
-          "answer": "c",
-          "explanation": "Variant c has in total z features, more then any of the other variants"
-        },
-        {
           "text": "Which product variant is shown in this picture?",
           "category": "image",
           "image": {
@@ -91,84 +68,6 @@
           ],
           "answer": "c",
           "explanation": "Variant c has in total z features more then the other variants"
-        },
-        {
-          "text": "Order the product variant from most to least features",
-          "category": "putInCorrectOrder",
-          "choices": [
-            {
-              "label": "Variant a",
-              "value": "a"
-            },
-            {
-              "label": "Variant b",
-              "value": "b"
-            },
-            {
-              "label": "Variant c",
-              "value": "c"
-            }
-          ],
-          "answer": "cab",
-          "explanation": "Variant a has in total z features more then b which in turn has more features than c"
-        },
-        {
-          "text": "Which product has which feature?",
-          "category": "matchThePairs",
-          "choices": [
-            {
-              "label": "Variant a",
-              "value": "a"
-            },
-            {
-              "label": "Variant b",
-              "value": "b"
-            },
-            {
-              "label": "Variant c",
-              "value": "c"
-            }
-          ],
-          "explanation": "Variant c has in total z features more then the other variants"
-        },
-        {
-          "text": "Decribe the slogan to attract customers for product x, you need to mention at least 2 key elements",
-          "category": "textEssay",
-          "answers": ["easy", "easily", "cheap", "low priced", "robust"],
-          "atLeastNeeded": "2",
-          "explanation": "Product x, easy and rubust when used and amongst the cheapest on the market"
-        },
-        {
-          "text": "Product x is ___ and ___ when used and amongst the cheapest on the market",
-          "category": "fillTheBlanks",
-          "answersOrdered": ["easy", "robust"],
-          "explanation": "Product x, easy and rubust when used and amongst the cheapest on the market"
-        },
-        {
-          "text": "What is the minimum age to apply for porduct x?",
-          "category": "numerical",
-          "answer": "18",
-          "explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
-        },
-        {
-          "text": "What are the key elements of porduct x?",
-          "category": "multiAnswer",
-          "choices": [
-            {
-              "label": "Easy to use",
-              "value": "easy"
-            },
-            {
-              "label": "Expensive when compared",
-              "value": "expensive"
-            },
-            {
-              "label": "5 star ratings",
-              "value": "robust"
-            }
-          ],
-          "answers": ["easy", "robust"],
-          "explanation": "Product x, easy and rubust when used and amongst the cheapest on the market"
         }
       ]
     }
