@@ -175,14 +175,5 @@
 				"explanation": "Product x, easy and rubust when used and amongst the cheapest on the market"
 			}
 		]
-	}],
-	"users": [{
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
-	}, {
-		"login": ""
 	}]
 }
