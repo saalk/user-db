@@ -182,5 +182,7 @@
 		"password": "test",
 		"image": "",
 		"bio": "Test User"
+	}, {
+		"login": ""
 	}]
 }
