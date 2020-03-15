@@ -1,13 +1,11 @@
 {
-	"users": [{
-		"login": {
-			"email": "test@test.com",
-			"username": "test",
-			"password": "test",
-			"image": "",
-			"bio": "Test User"
-		}
-	}],
+	"login": {
+		"email": "test@test.com",
+		"username": "test",
+		"password": "test",
+		"image": "",
+		"bio": "Test User"
+	},
 	"quizzes": [{
 		"id": 123,
 		"title": "x quiz",
