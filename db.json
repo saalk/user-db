@@ -1,4 +1,9 @@
 {
+	"tags": [{
+		"tag": "tag1"
+		}, {
+		"tag": "tag2"
+	}],
 	"login": {
 		"email": "test@test.com",
 		"username": "test",
