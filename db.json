@@ -1,10 +1,17 @@
 {
 	"tags": [{
 		"tag": "tag1"
-		}, {
+	}, {
 		"tag": "tag2"
 	}],
 	"login": {
+		"email": "test@test.com",
+		"username": "test",
+		"password": "test",
+		"image": "",
+		"bio": "Test User"
+	},
+	"user": {
 		"email": "test@test.com",
 		"username": "test",
 		"password": "test",
