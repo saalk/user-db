@@ -20,6 +20,13 @@
 		"image": "",
 		"bio": "Test User"
 	},
+	"users": {
+		"email": "test@test.com",
+		"username": "test",
+		"password": "test",
+		"image": "",
+		"bio": "Test User"
+	},
 	"quizzes": [{
 		"id": 123,
 		"title": "x quiz",
@@ -27,6 +34,9 @@
 		"subject": "Product x",
 		"audiance": "engineers",
 		"tagList": ["basic", "x"],
+		"author": [{
+			"username": "test"
+		}],
 		"settings": {
 			"final": "t",
 			"maxSecondsPerQuestion": "5",
