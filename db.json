@@ -177,12 +177,12 @@
 		]
 	}],
 	"users": [{
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
-	}, {
-		"login": ""
+		"login": {
+			"email": "test@test.com",
+			"username": "test",
+			"password": "test",
+			"image": "",
+			"bio": "Test User"
+		}
 	}]
 }
