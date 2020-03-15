@@ -1,8 +1,10 @@
 {
 	"tags": [{
-		"tag": "tag1"
+		"tag": "basic"
 	}, {
-		"tag": "tag2"
+		"tag": "x"
+	}, {
+		"tag": "y"
 	}],
 	"login": {
 		"email": "test@test.com",
@@ -24,7 +26,7 @@
 		"description": "Test your basic product x knowledge",
 		"subject": "Product x",
 		"audiance": "engineers",
-		"level": "basic knowledge",
+		"tagList": ["basic", "x"],
 		"settings": {
 			"final": "t",
 			"maxSecondsPerQuestion": "5",
