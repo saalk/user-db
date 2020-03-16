@@ -1,83 +1,32 @@
 {
-	"tags": [{
-		"tag": "basic"
-	}, {
-		"tag": "x"
-	}, {
-		"tag": "y"
-	}],
+	"tags": ["basic", "x", "y"],
 	"login": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
+		"user": {
+			"email": "test@test.com",
+			"password": "test",
+			"token": "jwt.token.here",
+			"username": "test",
+			"bio": "Test bio",
+			"image": null
+
+		}
 	},
 	"user": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
+		"user": {
+			"email": "test@test.com",
+			"username": "test",
+			"password": "test",
+			"image": "",
+			"bio": "Test User"
+		}
 	},
 	"users": {
-		"email": "test@test.com",
-		"username": "test",
-		"password": "test",
-		"image": "",
-		"bio": "Test User"
+		"user": {
+			"email": "test@test.com",
+			"username": "test",
+			"password": "test",
+			"image": "",
+			"bio": "Test User"
+		}
 	},
-	"quizzes": [{
-		"id": 123,
-		"title": "x quiz",
-		"description": "Test your basic product x knowledge",
-		"subject": "Product x",
-		"audiance": "engineers",
-		"tagList": ["basic", "x"],
-		"author": [{
-			"username": "test"
-		}],
-		"settings": {
-			"final": "t",
-			"maxSecondsPerQuestion": "5",
-			"numberOfHints": "2",
-			"allowExit": "f",
-			"allowGoBack": "f",
-			"randomizeQuestions": "t",
-			"randomizeAnswers": "t",
-			"minimumToPass": "60"
-		},
-		"questions": [{
-				"text": "Is product x hosted by a third party outside ING?",
-				"category": "trueFalse",
-				"answer": "t",
-				"explanation": "Product x is being administrated at a third party located in y"
-			},
-			{
-				"text": "Which product variant of product x has the beste features?",
-				"category": "multiChoice",
-				"choices": [{
-						"label": "Variant a",
-						"value": "a"
-					},
-					{
-						"label": "Variant b",
-						"value": "b"
-					},
-					{
-						"label": "Variant c",
-						"value": "c"
-					}
-				],
-				"answer": "c",
-				"explanation": "Variant c has in total z features more then the other variants"
-			},
-			{
-				"text": "What is the minimum age to apply for porduct x?",
-				"category": "numerical",
-				"answer": "18",
-				"explanation": "You should be at least 18 to apply but for a partner 16 is the minimum"
-			}
-		]
-	}]
 }
