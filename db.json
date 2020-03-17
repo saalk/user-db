@@ -5,9 +5,8 @@
 			"email": "test@test.com",
 			"token": "jwt.token.here",
 			"username": "test",
-			"bio": "Test bio",
+			"bio": "Test login api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
-
 		}
 	},
 	"user": {
@@ -15,27 +14,27 @@
 			"email": "test@test.com",
 			"token": "jwt.token.here",
 			"username": "test",
-			"bio": "Test User",
+			"bio": "Test user api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
-
 		}
 	},
 	"users": {
 		"user": {
 			"email": "test@test.com",
+			"token": "jwt.token.here",
 			"username": "test",
-			"password": "test",
-			"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-			"bio": "Test User"
+			"bio": "Test users api",
+			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
 		}
 	},
-	"profile": {
-		"user": {
+	"profiles": {
+		"profile": {
+			"email": "test@test.com",
+			"token": "jwt.token.here",
 			"username": "test",
-			"bio": "Test User",
+			"bio": "Test profiles api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
 			"following": false
-
 		}
 	}
 }
