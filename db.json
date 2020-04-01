@@ -5,7 +5,7 @@
 			"token": "jwt.token.here",
 			"username": "tester",
 			"bio": "Test login api",
-			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
+			"image": "https://eu.ui-avatars.com/api/?name=tester"
 		}
 	},
 	"user": {
@@ -14,7 +14,7 @@
 			"token": "jwt.token.here",
 			"username": "tester",
 			"bio": "Test user api",
-			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
+			"image": "https://api.adorable.io/avatars/285/test@test.com"
 		}
 	},
 	"users": {
@@ -23,7 +23,7 @@
 			"token": "jwt.token.here",
 			"username": "tester",
 			"bio": "Test users api",
-			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
+			"image": "https://api.adorable.io/avatars/285/test@test.com"
 		}
 	},
 	"profiles": {
@@ -32,7 +32,7 @@
 			"token": "jwt.token.here",
 			"username": "visitor",
 			"bio": "Visitor profiles api",
-			"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+			"image": "https://api.adorable.io/avatars/285/visitor@visitor.com",
 			"following": true
 		}
 	}
