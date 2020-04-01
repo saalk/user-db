@@ -3,7 +3,7 @@
 		"user": {
 			"email": "test@test.com",
 			"token": "jwt.token.here",
-			"username": "test",
+			"username": "tester",
 			"bio": "Test login api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
 		}
@@ -12,7 +12,7 @@
 		"user": {
 			"email": "test@test.com",
 			"token": "jwt.token.here",
-			"username": "test",
+			"username": "tester",
 			"bio": "Test user api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
 		}
@@ -21,19 +21,19 @@
 		"user": {
 			"email": "test@test.com",
 			"token": "jwt.token.here",
-			"username": "test",
+			"username": "tester",
 			"bio": "Test users api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg"
 		}
 	},
 	"profiles": {
 		"profile": {
-			"email": "test@test.com",
+			"email": "visitor@visitor.com",
 			"token": "jwt.token.here",
-			"username": "test",
-			"bio": "Test profiles api",
+			"username": "visitor",
+			"bio": "Visitor profiles api",
 			"image": "https://static.productionready.io/images/smiley-cyrus.jpg",
-			"following": false
+			"following": true
 		}
 	}
 }
