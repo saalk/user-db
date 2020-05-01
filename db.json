@@ -33,7 +33,10 @@
 			"username": "visitor",
 			"bio": "Visitor profiles api",
 			"image": "https://api.adorable.io/avatars/285/visitor@visitor.com",
-			"following": true
+			"computed": {
+				"following": true,
+				"followingCount": 285
+			}
 		}
 	}
 }
